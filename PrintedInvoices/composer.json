@@ -1,0 +1,28 @@
+{
+    "name": "igor/module-printed-invoices",
+    "description": "A module that extends Igor_PrintButton and flags invoices with a 'print' column.",
+    "authors": [
+        {
+            "name": "Igor Persona",
+            "homepage": "https://github.com/igorbpersona/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "igor/module-print-button": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Igor\\PrintedInvoices\\": ""
+        }
+    },
+    "version": "1.0.0"
+}

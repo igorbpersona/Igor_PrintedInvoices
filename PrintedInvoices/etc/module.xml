@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Igor_PrintedInvoices
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Igor_PrintedInvoices" setup_version="1.0.0">
+        <sequence>
+            <module name="Igor_PrintButton"/>
+        </sequence>
+    </module>
+</config>

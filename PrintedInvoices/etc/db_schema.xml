@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Igor_PrintedInvoices
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_invoice">
+        <column xsi:type="smallint" name="is_printed" padding="2" unsigned="false" nullable="false" identity="false"
+                default="0" comment="Flag the invoice as printed or not printed"/>
+    </table>
+    <table name="sales_invoice_grid">
+        <column xsi:type="smallint" name="is_printed" padding="2" unsigned="false" nullable="false" identity="false"
+                default="0" comment="Flag the invoice as printed or not printed"/>
+    </table>
+</schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Igor_PrintedInvoices
+ * @version   1.0.0
+ * @author    Igor Persona
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Magento\Sales\Model\ResourceModel\Order\Invoice\Grid">
+        <arguments>
+            <argument name="columns">
+                <item name="is_printed" xsi:type="string">sales_invoice.is_printed</item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>
